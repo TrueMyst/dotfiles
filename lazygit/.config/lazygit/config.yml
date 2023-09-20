@@ -1,0 +1,54 @@
+os:
+  editPreset: "nvim"
+
+gui:
+
+  # Nerd font version
+  nerdFontsVersion: "3"
+
+  # Human readable time
+  timeFormat: '02 Jan 06'
+  shortTimeFormat: '3:04PM'
+
+  # Smoothens the Borders
+  border: rounded
+
+  # Enables mouse scrolling
+  mouseEvents: true
+
+  # File options
+  showFileTree: true
+  showListFooter: false
+
+  # Extras
+  showRandomTip: false
+  showBottomLine: false
+  showCommandLog: true
+
+  # Theme
+  theme:
+    activeBorderColor:
+      - bold
+      - cyan
+
+    inactiveBorderColor:
+      - white
+
+    optionsTextColor:
+      - cyan
+
+    selectedLineBgColor:
+      - default
+
+    selectedRangeBgColor:
+
+      - default
+
+    cherryPickedCommitBgColor:
+      - magenta
+
+    cherryPickedCommitFgColor:
+      - cyan
+
+    unstagedChangesColor:
+      - red
