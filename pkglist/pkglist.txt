@@ -1,7 +1,4 @@
 alacritty
-archlinux-keyring
-autoconf
-automake
 bat
 bottom
 cbonsai
@@ -11,11 +8,10 @@ exa
 firefox
 gparted
 lazygit
-neovim
 neofetch
+neovim
 nodejs
 obs-studio
-oh-my-zsh-gist
 paru
 preload
 python-notify2

@@ -9,17 +9,17 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Define the file containing the list of packages to install
-package_list="./pkglist.txt"
+pkg="pkglist.txt"
 
 # Installs paru (package manger)
-pacman -S paru
+pacman -S paru --noconfirm
 
 # Update the package database and upgrade installed packages
 echo "Updating package database and upgrading installed packages..."
 paru -Syu --noconfirm
 
 # Installs packages from
-cat $(package_list) | xargs -I {} paru -S --noconfirm {}
+cat $pkg | xargs -I {} paru -S --noconfirm {}
 
 # Cleans up
 echo "Cleaning up..."

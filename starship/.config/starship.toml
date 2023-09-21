@@ -1,0 +1,46 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """\
+    [╭╴](240)\
+    [](bold white)[  ](bold bg:white fg:#011627)[](bold bg:white fg:black)\
+    [](bold fg:cyan bg:black)[ つき](bold bg:cyan fg:#011627)[](bold bg:cyan fg:black)\
+    $env_var$all\
+    [╰─](240)$character"""
+
+add_newline = true
+
+[character]
+success_symbol = "[🞈](bright-cyan)"
+error_symbol   = "[🞈](bright-red)"
+vicmd_symbol   = "[🞈](bright-yellow)"
+
+[package]
+disabled = true
+
+[directory]
+style             = "bold fg:#333333 bg:black"
+home_symbol       = " ~"
+truncation_length = 4
+truncate_to_repo  = false
+truncation_symbol = "…/"
+read_only         = " "
+read_only_style   = "bg:#333333 fg:white"
+format            = "[]($style)[$read_only]($read_only_style)[ $path ](bold bg:#333333 fg:white)[ ]($style)"
+
+[git_branch]
+style  = "fg:#e37452 bg:black"
+format = "[]($style)[ 󰊤 $branch ](bold fg:black bg:#e37452)[ ]($style)"
+
+[git_status]
+style      = "bg:color_git_status fg:color_foreground_dark"
+ahead      = " ${count} "
+behind     = " ${count} "
+staged     = " ${count} "
+stashed    = "󱉙 ${count} "
+renamed    = "󰑕 ${count} "
+deleted    = " ${count} "
+diverged   = " ${ahead_count} ${behind_count} "
+modified   = "󱇧 ${count} "
+untracked  = " ${count} "
+conflicted = "󰉀 ${count} "
+format     = "[($staged$modified$renamed$untracked$deleted$conflicted$stashed$ahead_behind )]($style)"
