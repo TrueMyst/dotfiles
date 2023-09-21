@@ -1,4 +1,4 @@
-# **<div align="center">🍢 dotfiles</div>**
+<h1 align="center">🍢 dotfiles</h1>
 *<p align = "center">a type of addiction that you can never get rid of 🤷<p>*
 
 ![kde](https://i.imgur.com/pAoAO5C.png)
