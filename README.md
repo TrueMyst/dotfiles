@@ -1,7 +1,5 @@
 <h1 align="center">🍢 dotfiles</h1>
 
-*<p align = "center">a type of addiction that you can never get rid of 🤷<p>*
-
 ![kde](https://i.imgur.com/pAoAO5C.png)
 
 ## Installation
@@ -10,7 +8,7 @@ To install these dotfiles, you'll need `git` and GNU `stow`. Follow these steps:
 
 1. **Clone the Repository** 📦
 
-   Clone this repository to your home directory (`~`) using `git`:
+   Clone this repository into your home directory (`~`) using `git`:
 
    ```bash
    git clone https://github.com/TrueMyst/dotfiles.git ~
