@@ -33,3 +33,4 @@ alias df="df -h"
 alias free="free -m"
 
 alias pr="paru"
+alias lg="lazygit"

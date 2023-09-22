@@ -2,6 +2,13 @@
 
 ![kde](https://i.imgur.com/pAoAO5C.png)
 
+### Fyi, the tools shown in the image
+- [`neofetch`](https://github.com/dylanaraps/neofetch)
+- [`neovim`](https://github.com/neovim/neovim)
+- [`cowsay`](https://github.com/piuccio/cowsay)
+- [`bottom`](https://github.com/ClementTsang/bottom)
+- [`colorscripts`](https://gitlab.com/dwt1/shell-color-scripts)
+
 ## Installation
 
 To install these dotfiles, you'll need `git` and GNU `stow`. Follow these steps:

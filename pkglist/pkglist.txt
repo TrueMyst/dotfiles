@@ -17,6 +17,7 @@ preload
 python-notify2
 python-pip
 reflector
+shell-color-scripts
 spotblock-git
 spotify
 stacer
