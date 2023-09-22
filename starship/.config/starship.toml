@@ -28,8 +28,8 @@ read_only_style   = "bg:#333333 fg:white"
 format            = "[]($style)[$read_only]($read_only_style)[ $path ](bold bg:#333333 fg:white)[ ]($style)"
 
 [git_branch]
-style  = "fg:#e37452 bg:black"
-format = "[]($style)[ 󰊤 $branch ](bold fg:black bg:#e37452)[ ]($style)"
+style  = "fg:#d7875f bg:black"
+format = "[]($style)[ 󰊤 $branch ](bold fg:black bg:#d7875f)[ ]($style)"
 
 [git_status]
 style      = "bg:color_git_status fg:color_foreground_dark"
