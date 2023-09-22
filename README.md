@@ -18,7 +18,7 @@ To install these dotfiles, you'll need `git` and GNU `stow`. Follow these steps:
    Clone this repository into your home directory (`~`) using `git`:
 
    ```bash
-   git clone https://github.com/TrueMyst/dotfiles.git ~
+   cd && git clone https://github.com/TrueMyst/dotfiles.git
    ```
 
 2. **Symlink the Dotfiles** ⚡
