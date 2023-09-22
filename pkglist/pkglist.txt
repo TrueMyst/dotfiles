@@ -22,11 +22,12 @@ spotblock-git
 spotify
 stacer
 stow
-tff-firacode
+ttf-cascadia-code
 timeshift
 tldr
 tty-clock-git
 unzip
+xclip
 xsel
 zip
 zsh

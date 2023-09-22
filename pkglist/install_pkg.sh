@@ -19,6 +19,7 @@ echo "Updating package database and upgrading installed packages..."
 paru -Syu --noconfirm
 
 # Installs packages from
+echo "Installing packages..."
 cat $pkg | xargs -I {} paru -S --noconfirm {}
 
 # Cleans up
