@@ -7,6 +7,7 @@ cowsay
 discord
 exa
 firefox
+ffmpegthumbs
 github-cli
 gparted
 lazygit
@@ -16,11 +17,13 @@ nodejs
 obs-studio
 pacman-contrib
 paru
+pokemon-colorscripts-git
 preload
 python-notify2
 python-pip
 reflector
 shell-color-scripts
+speech-dispatcher
 spotblock-git
 spotify
 stacer

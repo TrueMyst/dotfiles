@@ -16,7 +16,8 @@ export HISTSIZE=10000
 export SAVEHIST=10000
 
 # Adding PATH(s) to the environment
-typeset -U path
+# Ensure path arrays do not contain duplicates.
+typeset -gU cdpath fpath mailpath path
 
 path=(
     /usr/bin
@@ -25,10 +26,9 @@ path=(
     $HOME/.local/bin
     $HOME/.local/sbin
 
+    ~/.config/scripts/
     $path)
 
-export PATH
-
 # Commands-On-Startup
-neofetch
+pokemon-colorscripts -r -s --no-title
 eval "$(starship init zsh)"

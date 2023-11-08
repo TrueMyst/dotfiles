@@ -14,3 +14,8 @@ plug "zsh-users/zsh-history-substring-search"
 source "$HOME/.config/zsh/aliases.zsh"
 source "$HOME/.config/zsh/exports.zsh"
 source "$HOME/.config/zsh/keybinds.zsh"
+source "$HOME/.config/zsh/functions.zsh"
+
+# Custom Plugins
+source "$HOME/.config/zsh/custom-plugins/colored.zsh"
+source "$HOME/.config/zsh/custom-plugins/extract.zsh"

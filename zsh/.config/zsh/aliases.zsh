@@ -4,7 +4,8 @@
 
 alias zshrc="lvim ~/.zshrc"
 alias zmods="lvim ~/.config/zsh/"
-alias config="cd ~/.config/ && lvim"
+alias config="cd ~/.config/"
+alias dotfiles="cd ~/dotfiles/"
 
 alias reload="source ~/.zshrc"
 
@@ -18,17 +19,20 @@ alias ls="exa --icons --color=always --grid --group-directories-first"
 alias ll="exa --icons --color=always --grid --group-directories-first -F -al"
 
 alias nf="neofetch"
-alias nvim="lvim"
+alias nv="lvim"
 
 alias ..="cd ..; ll ."
 alias ...="cd ..; cd ..; ll ."
 
-alias cat="bat"
+alias cat="bat --theme=gruvbox-dark"
 
 alias cls="clear"
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
+
+alias ff="find . -type f -name $1"
+alias grep="grep --color"
 
 alias df="df -h"
 alias free="free -m"
@@ -38,5 +42,6 @@ alias installed="comm -23 <(pacman -Qqe | sort) <({ pacman -Qqg xorg; expac -l '
 
 alias pr="paru"
 alias lg="lazygit"
+alias gitspeed="git fsck"
 
-alias cmp='function _compile() { local file="${1%.*}"; g++ -std=c++17 -pedantic -Wall -Wextra -o "$file" "$1" && "./$file"; }; _compile'
+alias gruvbox="lutgen apply -p gruvbox-dark --lum 0.8 $1"
