@@ -4,6 +4,7 @@
 
 alias zshrc="lvim ~/.zshrc"
 alias zmods="lvim ~/.config/zsh/"
+
 alias config="cd ~/.config/"
 alias dotfiles="cd ~/dotfiles/"
 
@@ -43,5 +44,7 @@ alias installed="comm -23 <(pacman -Qqe | sort) <({ pacman -Qqg xorg; expac -l '
 alias pr="paru"
 alias lg="lazygit"
 alias gitspeed="git fsck"
+
+alias bigdir="du -a /home/myst | sort -n -r | head -n 25"
 
 alias gruvbox="lutgen apply -p gruvbox-dark --lum 0.8 $1"
