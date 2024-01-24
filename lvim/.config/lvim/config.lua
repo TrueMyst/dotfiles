@@ -2,6 +2,8 @@
 lvim.plugins = {
   { "sainnhe/gruvbox-material" },
   { "ellisonleao/gruvbox.nvim" },
+  { "cocopon/colorswatch.vim" },
+  { "cocopon/inspecthi.vim" },
   { "norcalli/nvim-colorizer.lua",
     config = function()
       require("colorizer").setup({ "css", "scss", "html", "javascript", "lua"}, {
@@ -24,4 +26,5 @@ local formatters = require("lvim.lsp.null-ls.formatters")
 
 formatters.setup{
   { name = "black" }, -- python
+  { name = "clang_format" } -- cpp
 }

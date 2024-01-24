@@ -6,7 +6,7 @@ decorations = "none"
 decorations_theme_variant = "Dark"
 
 dimensions = { columns = 120, lines = 30 }
-padding = {x = 10, y = 12}
+padding = {x = 6, y = 8}
 class = {instance = "Alacritty", general = "Alacritty"}
 
 [cursor]
@@ -22,4 +22,3 @@ size = 12
 normal = {family = "CaskaydiaCove Nerd Font", style = "Medium"}
 bold = {family = "CaskaydiaCove Nerd Font", style = "Bold"}
 italic = {family = "CaskaydiaCove Nerd Font", style = "Italic"}
-

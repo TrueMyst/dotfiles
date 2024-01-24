@@ -1,11 +1,8 @@
-# [Credits] elysianmyst
-
 # Default colorss
 [colors.primary]
   background = '#1d2021'
   foreground = '#dfbf8e'
 
-# colorss the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
   text = '#1d2021'
   cursor = '#bdae93'

@@ -32,6 +32,7 @@ alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
 
+alias cpc="xclip -sel c < $1"
 alias ff="find . -type f -name $1"
 alias grep="grep --color"
 

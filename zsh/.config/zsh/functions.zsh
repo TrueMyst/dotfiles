@@ -19,12 +19,20 @@ function run() {
 }
 
 function fixpacman() {
+  local check_processes=$(pgrep -c 'pacman|pamac|yay')
 
-  sudo ps aux | grep -E -i 'yay|pacman|yaourt|paru'
-  echo "Killing all unecessary processes..."
+    if [ $check_processes -eq 0 ]; then
+        sudo rm /var/lib/pacman/db.lck
+        echo "Lock file deleted successfully!"
+    else
+        echo "Other processes using package management found:"
+        ps aux | grep -E 'pacman|pamac|yay|paru'
+        echo "Terminating the processes and deleting the lock file..."
+        sudo pkill -9 -f 'pacman|pamac|yay'
+        sudo rm /var/lib/pacman/db.lck
+        echo "Lock file deleted after terminating processes!"
+    fi
 
-  sudo rm /var/lib/pacman/db.lck
   echo "Fixing Pacman..."
-  
   echo "Done!"
 }
