@@ -1,0 +1,71 @@
+# # Default colorss
+# [colors.primary]
+#   background = '#0E0F09'
+#   foreground = '#BFB16A'
+
+# [colors.cursor]
+#   text =    "#0E0F09"
+#   cursor =  "#B5B26A"
+
+# # Normal Colors
+# [colors.normal]
+#   black =   "#413D25"
+#   red =     "#FF693E"
+#   green =   "#B7B848"
+#   yellow =  "#DCBB52"
+#   blue =    "#719179"
+#   magenta = "#a06b76"
+#   cyan =    "#89AE55"
+#   white =   "#bfb16a"
+
+# # Bright colors
+# [colors.bright]
+#   black =   '#3c3836'
+#   red =     '#fa7a52'
+#   green =   '#cbd463'
+#   yellow =  '#efce6d'
+#   blue =    '#93af83'
+#   magenta = '#ab797f'
+#   cyan =    '#9fc36d'
+#   white =   '#d4c576'
+
+
+# ------------------------
+
+[colors.primary]
+  background = '#0E0F09'
+  foreground = '#BFB16A'
+
+[colors.cursor]
+  text =    "#0E0F09"
+  cursor =  "#B5B26A"
+
+[colors.normal]
+  black = "#423F30"
+  red = "#FF693E"
+  green = "#B7B848"
+  yellow = "#DCBB52"
+  blue = "#719179"
+  magenta = "#806C9A"
+  cyan = "#89AE55"
+  white = "#979164"
+
+[colors.bright]
+  black = "#57533D"
+  red = "#EE7548"
+  green = "#B5B450"
+  yellow = "#D2B758"
+  blue = "#7D9577"
+  magenta = "#897792"
+  cyan = "#90AC5B"
+  white = "#ACA571"
+
+[colors.dim]
+  black = "#2C2A23"
+  red = "#D15836"
+  green = "#97983E"
+  yellow = "#B59A46"
+  blue = "#5F7865"
+  magenta = "#6B5B80"
+  cyan = "#729048"
+  white = "#817C57"

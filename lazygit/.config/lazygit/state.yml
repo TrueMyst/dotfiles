@@ -1,8 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/myst/dotfiles
+- /home/myst/programming/BeatPrints
+- /home/myst/programming/ovate_1.nvim/ovate.nvim
+- /home/myst/programming/pymusix
 - /home/myst/programming/RicochetRush
-- /home/myst/programming/citruszest.nvim
+- /home/myst/programming/ovate.nvim
 startuppopupversion: 5
 customcommandshistory: []
 hidecommandlog: false
