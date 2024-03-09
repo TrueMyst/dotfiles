@@ -30,5 +30,4 @@ path=(
     $path)
 
 # Commands-On-Startup
-pokemon-colorscripts -r -s --no-title
 eval "$(starship init zsh)"

@@ -1,12 +1,12 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/myst/dotfiles
-- /home/myst/programming/BeatPrints
-- /home/myst/programming/ovate_1.nvim/ovate.nvim
-- /home/myst/programming/pymusix
-- /home/myst/programming/RicochetRush
-- /home/myst/programming/ovate.nvim
+- /home/myst/Projects/pymusix
+- /home/myst/Projects/RicochetRush
+- /home/myst/Projects/BeatPrints
+- /home/myst/Projects/ovate
 startuppopupversion: 5
-customcommandshistory: []
+customcommandshistory:
+- q
 hidecommandlog: false
 ignorewhitespaceindiffview: false
