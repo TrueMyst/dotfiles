@@ -36,7 +36,7 @@
     idle_threshold = 120
 
     # Font with size
-    font = CaskaydiaCove Nerd Font 9
+    font = JetBrainsMono Nerd Font 9
 
     # Extra spacing between text lines
     line_height = 2
