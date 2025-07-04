@@ -1,4 +1,16 @@
+ffmpeg
+7zip
+jq
+poppler
+fd
+resvg
+imagemagick
 alacritty
+catppuccin-gtk-theme-mocha
+nautilus
+noto-fonts-emoji
+papirus-icon-theme
+xfce-polkit-git
 bat
 bat-extras
 bibata-cursor-theme-bin
@@ -63,8 +75,6 @@ ttf-poppins
 udiskie
 udisks2
 vesktop-bin
-vim
-visual-studio-code-bin
 waybar
 waypaper
 wev
@@ -75,5 +85,4 @@ yazi
 zathura
 zathura-pdf-poppler
 zellij
-zen-browser-bin
 zoxide
