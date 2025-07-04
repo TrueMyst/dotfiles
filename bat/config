@@ -1,0 +1,18 @@
+# -------------------------------
+#           BAT EUGH!
+# -------------------------------
+
+# Specify desired highlighting theme
+--theme="mocha"
+
+# Enable this to use italic text on the terminal.
+--italic-text=always
+
+# Enable lines on the side of the code / text
+--number
+
+# Configure which elements to display in addition to file contents
+--style="header"
+
+# Uncomment the following line to disable automatic paging:
+--paging=never

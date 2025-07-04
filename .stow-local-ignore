@@ -1,0 +1,33 @@
+# -------------------------------
+#               Stow
+# -------------------------------
+
+# --------------
+#    Defaults
+# --------------
+
+RCS
+.+,v
+
+CVS
+\.\#.+       # CVS conflict files / emacs lock files
+\.cvsignore
+
+\.svn
+_darcs
+\.hg
+
+\.git
+\.gitignore
+\.gitmodules
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# ---------------------------
+#    Folders to be ignored
+# ---------------------------
+
+vesktop
+obs-studios

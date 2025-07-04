@@ -1,0 +1,46 @@
+# -------------------------------
+#             Keymaps
+# -------------------------------
+
+"$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
+
+[mgr]
+prepend_keymap = [
+  # Search interactively & Smart Find
+  { on = ["e"], run = "cd --interactive", desc = "󰎐 Quick Navigation" },
+  { on = ["<c-f>"], run = "find --smart", desc = "󰱼 Find for any occurrence"},
+  
+  # Switch to Home and Download directory
+  { on = ["g", "h"], run = "cd ~/", desc = "󰋜 Home" },
+  { on = ["g", "d"], run = "cd ~/downloads/", desc = " Downloads" },
+  
+  # Essential Tools & Quirks
+  { on = ["c", "a"], run = "plugin ouch", desc = " Archive selected files" },
+  { on = ["g", "o"], run = 'search_do --via=fd --args="-d 3"', desc = "󰩉 Switch to Flat Search" },
+  
+  # Toggle Pane (Hide or Maximize)
+  { on = ["T", "n"], run = "plugin toggle-pane min-preview", desc = "󰭰 Hide the preview pane" },
+  { on = ["T", "m"], run = "plugin toggle-pane max-preview", desc = "󰭰 Maximize the preview pane" },
+
+  # Home Bookmarks
+  { on = ["g", "v"], run = "cd ~/vids/", desc = "󰕧 Videos" },
+  { on = ["g", "m"], run = "cd ~/music/", desc = "󰝚 Music" },
+  { on = ["g", "p"], run = "cd ~/pixs", desc = " Pictures" },
+  { on = ["g", "D"], run = "cd ~/docs/", desc = "󱔗 Documents" },
+
+  # Custom Bookmarks
+  { on = ["g", "c"], run = "cd ~/.config/", desc = "󰒓 Config" },
+  { on = ["g", "P"], run = "cd ~/projects/", desc = " Projects" },
+  { on = ["g", "f"], run = "cd ~/dotfiles/", desc = " Dotfiles" },
+]
+
+[input]
+prepend_keymap = [
+  { on = ["<Esc>"], run = "close", desc = " Cancel input" }
+]
+
+[completion]
+prepend_keymap = [
+  { on = "<C-j>", run = "arrow 1", desc = "  Move cursor down" },
+  { on = "<C-k>", run = "arrow -1", desc = " Move cursor up" },
+]

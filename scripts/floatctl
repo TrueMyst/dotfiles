@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+# Get floating status of active window
+floating=$(hyprctl activewindow -j | jq '.floating')
+
+# Get window class name
+window=$(hyprctl activewindow -j | jq '.initialClass' | tr -d "\"")
+
+# Toggle floating mode and resize/center window
+toggle() {
+    width=$1
+	  height=$2
+	  hyprctl --batch "dispatch togglefloating; dispatch resizeactive exact ${width} ${height}; dispatch centerwindow"
+}
+
+# Disable floating mode
+untoggle() {
+	  hyprctl dispatch togglefloating
+}
+
+# Handle window floating toggle
+handle() {
+    width=$1
+    height=$2
+
+    if [ "$floating" == "false" ]; then
+      toggle "$width" "$height"
+    else
+      untoggle
+    fi
+}
+
+# Default case: handle floating for any window
+case $window in
+    *) handle "80%" "75%" ;;
+esac

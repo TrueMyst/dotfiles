@@ -1,0 +1,85 @@
+# --------------------------------------------
+#             Dunst Configuration
+#   https://dunst-project.org/documentation/
+# --------------------------------------------
+
+[global]
+    # General Settings
+    follow = mouse
+
+    # Width of the notification 
+    width = (400, 400)
+    height = (0, 400)
+    
+    # Limit
+    notification_limit = 6
+    
+    # Offset: Format (horizontal, vertical)
+    offset = (10, 10)
+
+    # Progress Bar
+    progress_bar_max_width = 375
+    progress_bar_frame_width = 0
+    progress_bar_corner_radius = 5
+
+    # Notification Icon's Radius
+    icon_corner_radius = 5
+    
+    # Padding between the text and the separator.
+    padding = 10
+    horizontal_padding = 15
+
+    # Frame width
+    frame_width = 2
+    
+    # Timeout notifications
+    idle_threshold = 120
+
+    # Font with size
+    font = CaskaydiaCove Nerd Font 9
+
+    # Extra spacing between text lines
+    line_height = 2
+
+    # Notification's Format
+    format = "<span font='12'>%s</span>\n<span font='10.5'>%b</span>"
+
+    # Icon Theme 
+    icon_theme = "Papirus-Dark"
+    enable_recursive_icon_lookup = true
+
+    # Notification's Radius, 
+    corner_radius = 5
+    
+    # Alignment of text
+    alignment = left
+
+    # Markup
+    markup = full
+    
+    # Icon positions and it's max and min size
+    max_icon_size = 72
+    min_icon_size = 64
+
+    # Mouse Actions
+    mouse_left_click = do_action, close_current
+
+[global]
+frame_color = "#b4befe"
+separator_color= "#363a4f"
+
+[urgency_low]
+background = "#181825"
+foreground = "#cdd6f4"
+highlight = "#b4befe"
+
+[urgency_normal]
+background = "#181825"
+foreground = "#cdd6f4"
+highlight = "#b4befe"
+
+[urgency_critical]
+background = "#181825"
+foreground = "#cdd6f4"
+highlight = "#b4befe"
+frame_color = "#f38ba8"

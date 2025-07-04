@@ -1,0 +1,22 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "c0ad8a3"
+hash = "3996fc74044bc44144b323686f887e1"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "c0ad8a3"
+hash = "d5d4f3527592da5fbe77fd6f51815f80"
+
+[[plugin.deps]]
+use = "imsi32/yatline"
+rev = "2ecf715"
+hash = "38e2ea4703ea606d4eef574e8e8b8fd7"
+
+[[plugin.deps]]
+use = "ndtoan96/ouch"
+rev = "2496cd9"
+hash = "5b9dea47776a30946cfbf83232d18fb1"
+
+[flavor]
+deps = []

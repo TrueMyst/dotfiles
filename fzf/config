@@ -1,0 +1,18 @@
+--prompt='❯ '
+--pointer='┃'
+
+--style='full'
+--height='75%'
+--border='none'
+
+--layout='reverse'
+--info='inline-right'
+
+--color=bg:#1E1E2E,fg:#CDD6F4,hl:#FAB387
+--color=bg+:#242437,fg+:#89b4fa,hl+:#FAB387
+
+--color=header:#F38BA8,info:#89B4FA,pointer:#89B4FA
+--color=marker:#B4BEFE,prompt:#89B4FA,spinner:#F5E0DC
+
+--color=label:#CDD6F4,gutter:#1E1E2E
+--color=border:#313244,selected-bg:#45475A

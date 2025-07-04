@@ -1,0 +1,73 @@
+# -------------------------------
+#              Yazi
+# -------------------------------
+
+"$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
+
+[mgr]
+ratio = [2, 3, 3]
+sort_by = "natural"
+
+[opener]
+text = [
+  { run = 'nvim "$@"', block = true, desc = "neovim", for = "linux" },
+  { run = 'code "$@"', orphan = true, desc = "vscode", for = "linux" },
+  { run = 'nano "$@"', block = true, desc = "nano", for = "linux" },
+]
+
+image = [
+  { run = 'imv "$@"', orphan = true, desc = "imv", for = "linux" },
+  { run = 'gwenview "$@"', orphan = true, desc = "gwenview", for = "linux" },
+]
+
+media = [
+  { run = 'vlc "$@"', orphan = true, desc = "vlc", for = "linux" },
+  { run = 'mpv "$@"', orphan = true, desc = "mpv", for = "linux" },
+]
+
+document = [
+  { run = 'okular "$@"', orphan = true, desc = "okular", for = "linux" },
+  { run = 'zathura "$@"', orphan = true, desc = "zathura", for = "linux" },
+  { run = 'libreoffice "$@"', orphan = true, desc = "libreoffice", for = "linux" },
+]
+
+folder = [
+  { run = "fish -c 'nvim '$1''", block = true, desc = "neovim", for = "linux" },
+  { run = 'files "$1"', orphan = true, desc = "nemo", for = "linux" },
+]
+
+extract = [
+	{ run = 'ouch d -y "$@"', desc = "extract", for = "linux" },
+]
+
+fallback = [
+  { run = 'xdg-open "$@"', orphan = true, desc = "xdg-open", for = "linux" },
+]
+
+[open]
+rules = [
+  # Folders
+  { name = "*/", use = "folder" },
+
+  # Empty Files
+  { mime = "inode/empty", use = "text" },
+
+  # Text, Images, Audios, & Videos
+  { mime = "text/*", use = "text" },
+  { mime = "image/*", use = "image" },
+  { mime = "audio/*", use = "media" },
+  { mime = "video/*", use = "media" }, 
+  { mime = "application/octet-stream", use = "media" },
+
+  # JSON
+  { mime = "application/json", use = "text" },
+
+  # Archives
+	{ mime = "application/{*zip,x-*,xz}", use = "extract" },
+
+  # Documents & PDF
+  { mime = "application/{pdf,epub+zip,msword,vnd.*,x-mobipocket-ebook}", use = "document" },
+  
+  # Fallback
+  { mime = "*", use = "fallback" }
+]
