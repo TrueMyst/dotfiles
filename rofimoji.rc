@@ -1,0 +1,7 @@
+action = copy
+skin-tone = medium-light
+no-frecency = True
+hidden-descriptions = True
+prompt = " "
+use-icons = True
+selector-args = "-config ~/.config/rofi/rasi/emoji.rasi"
