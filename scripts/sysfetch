@@ -1,7 +1,5 @@
+#!/usr/bin/env sh
 # ---------------------------------------------
-#!/usr/bin/env bash
-
-# sysfetch
 # Thanks to u/x_ero for his sysinfo script
 # Modified by gh0stzk | Cleaned by @elysianmyst
 # ---------------------------------------------

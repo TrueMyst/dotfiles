@@ -1,0 +1,118 @@
+# Fonts
+--------
+ttf-{jetbrains-mono-nerd, poppins}
+noto-fonts{, -cjk, -emoji, -extra}
+
+# Terminals
+------------
+alacritty
+foot{, -terminfo}
+
+# Terminal Misc
+----------------
+catnap-git
+cava
+cowsay
+figlet
+fortune-mod
+gowall
+ncmpcpp
+
+# Terminal Apps
+----------------
+btop
+clipse-bin
+lazygit
+neovim
+starship
+wikiman
+yazi
+zellij
+
+# Terminal Utils
+-----------------
+7zip
+bat{, -extras}
+brightnessctl
+duf
+fd
+flatpak
+fzf
+git
+github-cli
+imagemagick
+mpc
+mpd
+nodejs
+reflector
+resvg
+spicetify-cli
+spotblock-rs
+stow
+tealdeer
+wev
+wget
+
+# Themes & Cursors
+-------------------
+nwg-look
+papirus-icon-theme
+bibata-cursor-theme-bin
+catppuccin-gtk-theme-mocha
+
+# GUI-Related
+--------------
+gparted
+pavucontrol
+gnome-font-viewer
+gnome-text-editor
+
+# Hyprland & Essentials
+------------------------
+hyprland
+hypridle
+hyprlock
+hyprshot
+
+dunst
+smile
+waybar
+waypaper
+
+xfce-polkit-git
+rofi-lbonn-wayland-git
+rofimoji
+
+# XDG
+------
+xdg-utils
+xdg-user-dir
+xdg-desktop-portal-hyprland
+
+# Needs
+--------
+firefox
+obs-studio
+vesktop-bin
+
+steam
+spotify
+obsidian
+
+# Image Viewer
+---------------
+imv
+loupe
+
+# Video Viewer
+---------------
+mpv
+vlc
+
+# PDF Viewer
+-------------
+zathura{, -pdf-poppler}
+
+# File Explorer
+---------------
+nautilus
