@@ -21,6 +21,7 @@ ncmpcpp
 # Terminal Apps
 ----------------
 btop
+swww
 clipse-bin
 lazygit
 neovim
@@ -31,6 +32,8 @@ zellij
 
 # Terminal Utils
 -----------------
+eza
+zoxide
 7zip
 bat{, -extras}
 brightnessctl
@@ -86,7 +89,7 @@ rofimoji
 # XDG
 ------
 xdg-utils
-xdg-user-dir
+xdg-user-dirs
 xdg-desktop-portal-hyprland
 
 # Needs

@@ -1,10 +1,16 @@
-ttf-{jetbrains-mono-nerd, poppins}
-noto-fonts{, -cjk, -emoji, -extra}
+ttf-jetbrains-mono-nerd
+ttf-poppins
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
 alacritty
-foot{, -terminfo}
+foot
+foot-terminfo
 catnap-git
 cava
 cowsay
+fish
 figlet
 fortune-mod
 gowall
@@ -17,8 +23,12 @@ starship
 wikiman
 yazi
 zellij
+eza
+zoxide
+swww
 7zip
-bat{, -extras}
+bat
+bat-extras
 brightnessctl
 duf
 fd
@@ -58,7 +68,7 @@ xfce-polkit-git
 rofi-lbonn-wayland-git
 rofimoji
 xdg-utils
-xdg-user-dir
+xdg-user-dirs
 xdg-desktop-portal-hyprland
 firefox
 obs-studio
@@ -70,5 +80,6 @@ imv
 loupe
 mpv
 vlc
-zathura{, -pdf-poppler}
+zathura
+zathura-pdf-poppler
 nautilus

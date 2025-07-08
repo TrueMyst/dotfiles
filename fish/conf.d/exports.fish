@@ -12,7 +12,7 @@ set -x TERM "foot-direct"
 
 # Applications
 set -x EDITOR "nvim"
-set -x BROWSER "zen-browser"
+set -x BROWSER "firefox"
 set -x MANPAGER "nvim +Man!"
 
 # PATH Environment
